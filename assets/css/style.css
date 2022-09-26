@@ -1,1 +1,129 @@
-
+body{
+    min-width: 1000px;
+}
+#general{
+    size: 100%;
+    margin-top: 0 0;
+}
+#titulo{
+    background-color: rgb(107, 22, 203);
+    height: 5rem;
+    width: 100%;
+}
+#titulo h1{
+    text-align: center;
+    margin-top: 0;
+    justify-content: center;
+}
+#contenido{
+    float: left;
+    background-color: rgb(133, 191, 232);
+    width: 84.44%;
+    height: 415px;
+}
+#contenido p{
+    margin: 5px;
+}
+#contenido h3{
+    margin: 5px;
+    margin-top: 10px;
+}
+#contenido hr{
+    margin: 5px;
+}
+#menu{
+    float: right;
+    width: 10%;
+    background-color: rgb(95, 127, 241);
+    text-align: center;
+    height: 415px;
+    min-width: min-content;
+}
+#menu a{
+    text-decoration: none;
+}
+#menu ul{
+    text-decoration: none;
+    text-align: center;
+    margin: 10px auto;
+    margin-right: 30px;
+}
+#menu li{
+    list-style: none;
+}
+#menu iframe{
+    text-align: center;
+}
+#titulo img{
+    float: right;
+    height: 3rem;
+}
+iframe {
+    height: 8rem;
+    width: 8rem;
+}
+img{
+    height: 3rem;
+}
+#pie{
+    width: 100%;
+    clear: both;
+    background-color: rgb(107, 22, 203);
+    height: 5rem;
+}
+#subir{
+    float: left;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+#inicio {
+    float: right;
+    margin-top: 10px;
+    margin-right: 3px;
+}
+#carro{
+    margin-top: 20px;
+    text-align: center;
+}
+#libros{
+    width: 7rem;
+    height: 7rem;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 5px;
+}
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+td img{
+    width: auto;
+    height: 150px;
+}
+#dia{
+    text-align: right;
+}
+#info{
+    text-align: right;
+}
+#info a{
+    color: black;
+}
+td.info, th.info{
+    background-color: rgb(107, 22, 203);
+}
+h2{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+h1, h2, h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
