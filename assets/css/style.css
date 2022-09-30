@@ -58,7 +58,7 @@ body{
     float: right;
     height: 3rem;
 }
-iframe {
+#menu iframe {
     height: 8rem;
     width: 8rem;
 }
@@ -127,3 +127,23 @@ h2{
 h1, h2, h3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+#contenido iframe{
+    float: right;
+    height: 8rem;
+}
+input.boton{
+    margin: 2px;
+}
+#login{
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(95, 127, 241);
+}
+#login h3{
+    text-align: center;
+    margin-left: 0;
+}
+
